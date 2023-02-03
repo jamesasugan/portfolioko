@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device width, initial-scale=1.0">
+    <title>Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/470d815d8e.js" crossorigin="anonymous"></script>
+</head>
+<body>  
+<div id="header">
+    <div class="container">
+        <nav>   
+            <img src="logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a> </li>
+                <li><a href="#about">About</a> </li>
+                <li><a href="#services">Service</a> </li>
+                <li><a href="#portfolio">Portfolio</a> </li>
+                <li><a href="#contact">Contact</a> </li>
+                <i class="fas fa-times" onclick="closemenu()"></i> 
+            </ul>
+            <label id="icon">
+                <i class="fas fa-bars"></i>
+            </label>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>James Asugan</h1>
+            <p>Aspiring<span> Web Developer</span> from Philippines </p>
+            <p>(work in progress)</p>
+        </div>
+    </div>
+</div>
+<!-----------about----------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello, My name is James Asugan. I'm a second-year college student pursuing a Bachelor of Science in Information Technology 
+                    at Cavite State University Carmona Campus. I am a tech-savvy individual
+                    with a passion for learning about the latest advancements in the field. 
+                    I am eager to apply my knowledge and skills in real-world projects and to gain hands-on experience. 
+                    In my free time, I enjoy exploring new technologies and programming languages. </p>
+
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming languages</span><br>Java, C#</li>
+                            <li><span>Web development</span><br>HTML, CSS</li>
+                            <li><span>Database management</span><br>SQL, MySQL, XAMPP</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Built personal projects</span><br>Website etc.</li>
+                            <li><span>N/A</span><br>wala pa</li>
+                            <li><span>N/A</span><br>wala pa</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2014 - 2015</span><br>Tagapo Elementary School</li>
+                            <li><span>2018 - 2019</span><br>Jacobo Z. Gonzales Memorial National High School</li>
+                            <li><span>2020 - 2021</span><br>University of Perpetual Help System - Laguna Campus</li>
+                            <li><span>2021 - Current</span><br>Cavite State University - Carmona Campus</li>
+                        </ul>
+                     </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------services----------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">wala pa</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Database Management</h2>
+                <p>hindi ko pa alam ilalagay ko mema lang to haha.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-square-js"></i>
+                <h2>Javascript</h2>
+                <p>hindi ko pa alam ilalagay ko mema lang to haha.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-html5"></i>
+                <h2>HTML/CSS</h2>
+                <p>hindi ko pa alam ilalagay ko mema lang to haha.</p>
+                    <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------portfolio----------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Hobbies</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="hobby1.jpg">
+                <div class="layer">
+                    <h3>Wild Rift</h3>
+                    <p>Highest Rank: Diamond 5</p>
+                        <a href="https://sea.wildstats.gg/en/profile/BdOG6xYMQa5wr8LYaaBn"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="hobby2.jpg">
+                <div class="layer">
+                    <h3>Call of Duty</h3>
+                    <p>Multiplayer Highest Points: 26000+</p>
+                        <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="hobby3.jpg">
+                <div class="layer">
+                    <h3>Valorant</h3>
+                    <p>Highest Rank: Diamond 1 E5:A3</p>
+                        <a href="https://tracker.gg/valorant/profile/riot/rtz%230316/overview"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#header" class="btn">Back to top</a>
+    </div>
+</div>
+<!-----------contact----------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> jjasugan@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 09926276549</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/jamesasugan/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/westgardenia"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/jamesasugan/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@skibididogdog"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                <a href="my-cv.pdf" download class="btn btn2">Download my Resume</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" id="" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Stay productive not reproductive</p>
+    </div>
+</div>
+
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-240px";
+    }
+
+</script>
+
+
+</body>
+</html>
